@@ -1,0 +1,13 @@
+Ripple Carry Adder (RCA):performs addition of two 𝑛-bit numbers. 
+the project i attached performs the addition in two stages as follows:
+1- In the first stage, we need to reduce the problem of adding three numbers into 
+adding two 𝑛-bit numbers. The 8-bits of S and C will be computed at the same time.
+
+2- In the second stage, RCA is used to compute the summation and the carry.
+
+also i attached Test Bench code and screenshots:
+For simplicity, the Test bench was conducted using three different tuples only
+
+(T1=(X= 1100, Y= 1101, Z=1110),
+ T2=(X= 1111, Y= 1000, Z=1001),
+ T3=(X= 1110, Y= 0101, Z= 0111))
